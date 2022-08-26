@@ -1,0 +1,12 @@
+{
+  "root": true,
+  "extends": ["eslint-config-prettier"],
+  "rules": {
+    "no-undef": "error",
+    "no-unused-vars": "off",
+    "react-hooks/exhaustive-deps": "error"
+  },
+  "globals": {
+    "MyGlobal": true
+  }
+}
