@@ -1,4 +1,4 @@
-export default (markup) => `
+export default (markup: string) => `
   <!DOCTYPE html>
   <html>
     <head>
