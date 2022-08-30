@@ -2,13 +2,13 @@ export default (markup: string) => `
   <!DOCTYPE html>
   <html>
     <head>
-      <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
+      <title>React hydrate</title>
     </head>
 
     <body>
       <div id="app">${markup}</div>
 
-      <script src="/bundle.js"></script>
+      <script src="/root.js"></script>
     </body>
   </html>
 `;
